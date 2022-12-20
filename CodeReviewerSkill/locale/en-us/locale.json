@@ -1,0 +1,38 @@
+{
+    "code.display.directory.chart": {
+        "en_us": "Here is a list of the items in the current directory:"
+    },
+    "code.display.file": {
+        "en_us": "Displaying the contents of the file."
+    },
+    "code.display.functions": {
+        "en_us": "Here are the functions defined in the code:"
+    },
+    "code.display.variables": {
+        "en_us": "Here are the variables defined in the code:"
+    },
+    "code.explain": {
+        "en_us": "Here is the documentation for the code:"
+    },
+    "code.make.directory": {
+        "en_us": "Creating a new directory with the specified name."
+    },
+    "code.open.file": {
+        "en_us": "Opening the specified file."
+    },
+    "code.retrieve": {
+        "en_us": "Retrieving the code snippet with the specified name."
+    },
+    "code.review": {
+        "en_us": "Displaying the code for review."
+    },
+    "code.run": {
+        "en_us": "Running the code."
+    },
+    "code.save": {
+        "en_us": "Saving the code snippet with the specified name."
+    },
+    "code.separate.functions": {
+        "en_us": "Separating the functions in the code into separate files."
+    }
+}

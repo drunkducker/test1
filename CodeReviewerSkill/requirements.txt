@@ -1,0 +1,5 @@
+pygments
+pydoc
+subprocess
+cursed
+sqlite3

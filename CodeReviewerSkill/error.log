@@ -1,0 +1,20 @@
+import logging
+
+logger = logging.getLogger('CodeReviewer')
+logger.setLevel(logging.ERROR)
+
+# Create a file handler for the error log
+file_handler = logging.FileHandler('error.log')
+file_handler.setLevel(logging.ERROR)
+
+# Create a formatter for the log messages
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+# Add the formatter to the file handler
+file_handler.setFormatter(formatter)
+
+# Add the file handler to the logger
+logger.addHandler(file_handler)
+
+# Test the error log by logging a message
+logger.error('An error occurred!')
